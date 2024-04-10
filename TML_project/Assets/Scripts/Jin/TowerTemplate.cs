@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[CreateAssetMenu]
+public class TowerTemplate : MonoBehaviour
+{
+    public GameObject towerPrefab;
+    public Weapon[] weapon;
+
+    [System.Serializable]
+    public struct Weapon
+    {
+        public Sprite sprtie;
+        public float damage;
+        public float rate;
+        public float range;
+        public int cost;
+    }
+}
