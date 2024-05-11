@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class TowerTemplate : MonoBehaviour
+public class TowerTemplate : ScriptableObject
 {
     public GameObject towerPrefab;
     public Weapon[] weapon;
