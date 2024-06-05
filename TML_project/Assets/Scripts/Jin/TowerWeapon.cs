@@ -6,6 +6,8 @@ public enum WeaponState { SearchTarget = 0, AttackToTarget }
 public class TowerWeapon : MonoBehaviour
 {
     [SerializeField]
+    private Animator        _Animator;                              // 애니메이터
+    [SerializeField]
     private GameObject      projectilePrefab;                       // 발사체 프리팹    
     [SerializeField]
     private Transform       spawnPoint;                             // 발사체 생성 위치
@@ -52,7 +54,32 @@ public class TowerWeapon : MonoBehaviour
         // x, y 변위값을 바탕으로 각도 구하기
         // 각도가 radian 단위이기 때문에 Mathf.Rad2Deg를 곱해 두 단위를 구함
         float degree = Mathf.Atan2(dy, dx) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, degree);
+        //transform.rotation = Quaternion.Euler(0, 0, degree);
+        RotateImage(degree);
+    }
+
+    private void RotateImage(float angle)
+    {
+        // 왼쪽
+        if(Mathf.Abs(angle) > 135)
+        {
+            _Animator.SetTrigger("Left");
+        }
+        // 오른쪽
+        else if (Mathf.Abs(angle) < 45)
+        {
+            _Animator.SetTrigger("Right");
+        }
+        // 위
+        else if (angle > 45 && angle < 135)
+        {
+            _Animator.SetTrigger("Up");
+        }
+        // 아래
+        else if (angle < -45 && angle > -135)
+        {
+            _Animator.SetTrigger("Down");
+        }
     }
     private IEnumerator SearchTarget()
     {
