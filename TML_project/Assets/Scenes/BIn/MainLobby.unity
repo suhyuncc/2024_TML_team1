@@ -212,7 +212,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 8
           m_FloatArgument: 0
           m_StringArgument: EastHall
           m_BoolArgument: 0
@@ -446,7 +446,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 9
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: YulGok
           m_BoolArgument: 0
@@ -578,7 +578,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 7
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: HongJae
           m_BoolArgument: 0
@@ -639,7 +639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &313415219
 RectTransform:
   m_ObjectHideFlags: 0
@@ -722,7 +722,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 7
           m_FloatArgument: 0
           m_StringArgument: 1
           m_BoolArgument: 0
@@ -854,7 +854,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 8
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: YeonAm
           m_BoolArgument: 0
@@ -1075,7 +1075,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &534933837
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1146,7 +1146,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 6
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: SongJae
           m_BoolArgument: 0
@@ -1278,7 +1278,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: Pharmacy
           m_BoolArgument: 0
@@ -1542,7 +1542,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 9
           m_FloatArgument: 0
           m_StringArgument: PalDal
           m_BoolArgument: 0
@@ -1699,15 +1699,15 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 534933837}
+  - {fileID: 158476239}
+  - {fileID: 626439921}
+  - {fileID: 361432058}
+  - {fileID: 2055181959}
+  - {fileID: 129399332}
   - {fileID: 313415219}
   - {fileID: 8925216}
   - {fileID: 1257188429}
-  - {fileID: 2055181959}
-  - {fileID: 626439921}
-  - {fileID: 534933837}
-  - {fileID: 158476239}
-  - {fileID: 361432058}
-  - {fileID: 129399332}
   - {fileID: 1102162204}
   m_Father: {fileID: 30462035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1843,7 +1843,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1916,15 +1916,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _buildings:
+  - {fileID: 534933836}
+  - {fileID: 158476238}
+  - {fileID: 626439920}
+  - {fileID: 361432057}
+  - {fileID: 2055181958}
+  - {fileID: 129399331}
   - {fileID: 313415218}
   - {fileID: 8925215}
   - {fileID: 1257188428}
-  - {fileID: 2055181958}
-  - {fileID: 626439920}
-  - {fileID: 534933836}
-  - {fileID: 158476238}
-  - {fileID: 361432057}
-  - {fileID: 129399331}
   - {fileID: 1102162203}
 --- !u!4 &2108116424
 Transform:
