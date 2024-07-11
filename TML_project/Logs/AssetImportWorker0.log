@@ -1,23 +1,30 @@
+Unity Editor version:    2022.3.20f1 (61c2feb0970d)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.4.1 (Build 23E224)
+Darwin version:          23.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
-Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'ko' Physical Memory: 16221 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Administrator/Documents/GitHub/2024_TML_team1/TML_project
+/Users/ilovemylife/Documents/GitHub/2024_TML_team1/TML_project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61170
-Successfully changed project path to: C:/Users/Administrator/Documents/GitHub/2024_TML_team1/TML_project
-C:/Users/Administrator/Documents/GitHub/2024_TML_team1/TML_project
+49412
+Successfully changed project path to: /Users/ilovemylife/Documents/GitHub/2024_TML_team1/TML_project
+/Users/ilovemylife/Documents/GitHub/2024_TML_team1/TML_project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,1099 +56,126 @@ C:/Users/Administrator/Documents/GitHub/2024_TML_team1/TML_project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3412] Host "[IP] 222.99.139.57 [Port] 0 [Flags] 2 [Guid] 977709313 [EditorId] 977709313 [Version] 1048832 [Id] WindowsEditor(7,ONE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8434465472] Host "[IP] 192.168.35.56 [Port] 0 [Flags] 2 [Guid] 875310625 [EditorId] 875310625 [Version] 1048832 [Id] OSXEditor(0,ojeongbin-ui-MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3412] Host "[IP] 222.99.139.57 [Port] 0 [Flags] 2 [Guid] 977709313 [EditorId] 977709313 [Version] 1048832 [Id] WindowsEditor(7,ONE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8434465472] Host "[IP] 192.168.35.56 [Port] 0 [Flags] 2 [Guid] 875310625 [EditorId] 875310625 [Version] 1048832 [Id] OSXEditor(0,ojeongbin-ui-MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 10.91 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2022.3.9f1 (ea401c316338)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Administrator/Documents/GitHub/2024_TML_team1/TML_project/Assets
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ilovemylife/Documents/GitHub/2024_TML_team1/TML_project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
-    Vendor:   NVIDIA
-    VRAM:     12110 MB
-    Driver:   32.0.15.5612
+ preferred device: Apple M3 (high power)
+Metal devices available: 1
+0: Apple M3 (high power)
+Using device Apple M3 (high power)
+Initializing Metal device caps: Apple M3
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.024710 seconds.
-- Loaded All Assemblies, in  0.457 seconds
-Native extension for WindowsStandalone target not found
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.001863 seconds.
+- Loaded All Assemblies, in  0.181 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 316 ms
+Android Extension - Scanning For ADB Devices 52 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.683 seconds
-Domain Reload Profiling: 1135ms
-	BeginReloadAssembly (144ms)
+- Finished resetting the current domain, in  0.249 seconds
+Domain Reload Profiling: 430ms
+	BeginReloadAssembly (47ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (92ms)
-	LoadAllAssembliesAndSetupDomain (164ms)
-		LoadAssemblies (140ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (83ms)
+		LoadAssemblies (47ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (161ms)
-			TypeCache.Refresh (159ms)
-				TypeCache.ScanAssembly (145ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (81ms)
+				TypeCache.ScanAssembly (74ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (683ms)
+	FinalizeReload (249ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (618ms)
+		SetupLoadedEditorAssemblies (217ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (447ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (143ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (107ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (50ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
-========================================================================
-Worker process is ready to serve import requests
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.826 seconds
-Refreshing native plugins compatible for Editor in 5.94 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Package Manager log level set to [2]
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.704 seconds
-Domain Reload Profiling: 1522ms
-	BeginReloadAssembly (183ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (526ms)
-		LoadAssemblies (429ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (212ms)
-			TypeCache.Refresh (188ms)
-				TypeCache.ScanAssembly (168ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (704ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (520ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (342ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (18ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3301 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (56.4 KB). Loaded Objects now: 3772.
-Memory consumption went from 135.6 MB to 135.5 MB.
-Total: 2.069600 ms (FindLiveObjects: 0.162000 ms CreateObjectMapping: 0.072700 ms MarkObjects: 1.763400 ms  DeleteObjects: 0.070700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1875.532541 seconds.
-  path: Assets/Prefabs/Towers/Chito_01.prefab
-  artifactKey: Guid(c2f8cfcda10b73841adc43ea0f8a018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_01.prefab using Guid(c2f8cfcda10b73841adc43ea0f8a018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787e14f10c4a7d231d6ec1496d37c430') in 0.317957 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 560
-========================================================================
-Received Import Request.
-  Time since last request: 2.226268 seconds.
-  path: Assets/Prefabs/Towers/Chito_01.prefab
-  artifactKey: Guid(c2f8cfcda10b73841adc43ea0f8a018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_01.prefab using Guid(c2f8cfcda10b73841adc43ea0f8a018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d033d5f29ade2ff058f16da09ad319') in 0.193373 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 560
-========================================================================
-Received Import Request.
-  Time since last request: 5.942414 seconds.
-  path: Assets/Prefabs/Towers/Chito_01.prefab
-  artifactKey: Guid(c2f8cfcda10b73841adc43ea0f8a018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_01.prefab using Guid(c2f8cfcda10b73841adc43ea0f8a018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9f74c9be00b389f88113ed7626044e') in 0.197627 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 568
-========================================================================
-Received Import Request.
-  Time since last request: 5.545609 seconds.
-  path: Assets/Prefabs/Towers/Chito_08.prefab
-  artifactKey: Guid(6540b3487693af34dbffdaf30a840841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_08.prefab using Guid(6540b3487693af34dbffdaf30a840841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c549f0ee302a54c345a171e900b95820') in 0.345196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 738
-========================================================================
-Received Import Request.
-  Time since last request: 1.546337 seconds.
-  path: Assets/Prefabs/Towers/Chito_08.prefab
-  artifactKey: Guid(6540b3487693af34dbffdaf30a840841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_08.prefab using Guid(6540b3487693af34dbffdaf30a840841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e118582130dd434b380da37ac8c33f3') in 0.241295 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 738
-========================================================================
-Received Import Request.
-  Time since last request: 1.619094 seconds.
-  path: Assets/Prefabs/Towers/Chito_08.prefab
-  artifactKey: Guid(6540b3487693af34dbffdaf30a840841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_08.prefab using Guid(6540b3487693af34dbffdaf30a840841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b87f56d78002f0de4a868cc427dabb') in 0.247371 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 738
-========================================================================
-Received Import Request.
-  Time since last request: 20.985422 seconds.
-  path: Assets/Prefabs/Towers/Chito_08.prefab
-  artifactKey: Guid(6540b3487693af34dbffdaf30a840841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_08.prefab using Guid(6540b3487693af34dbffdaf30a840841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10c41383844bb82fa9c9eecaa895719') in 0.248321 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 746
-========================================================================
-Received Import Request.
-  Time since last request: 14.843173 seconds.
-  path: Assets/Prefabs/Towers/Chito_07.prefab
-  artifactKey: Guid(ccfddc0e4946ced47a0c01be688f526b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_07.prefab using Guid(ccfddc0e4946ced47a0c01be688f526b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff44269c98c518511733b95f572c8e2') in 0.208387 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 553
-========================================================================
-Received Import Request.
-  Time since last request: 17.672606 seconds.
-  path: Assets/Prefabs/Towers/Chito_07.prefab
-  artifactKey: Guid(ccfddc0e4946ced47a0c01be688f526b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_07.prefab using Guid(ccfddc0e4946ced47a0c01be688f526b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777ea93df369c1897fca9fc9fee51c36') in 0.184182 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 553
-========================================================================
-Received Import Request.
-  Time since last request: 6.050423 seconds.
-  path: Assets/Prefabs/Towers/Chito_07.prefab
-  artifactKey: Guid(ccfddc0e4946ced47a0c01be688f526b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_07.prefab using Guid(ccfddc0e4946ced47a0c01be688f526b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd438a3df20a23fe5fa26be29ffc4810e') in 0.230463 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 553
-========================================================================
-Received Import Request.
-  Time since last request: 17.173150 seconds.
-  path: Assets/Prefabs/Towers/Chito_07.prefab
-  artifactKey: Guid(ccfddc0e4946ced47a0c01be688f526b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_07.prefab using Guid(ccfddc0e4946ced47a0c01be688f526b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1d5255d299146477a2f6acc1bc43fb') in 0.193299 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 555
-========================================================================
-Received Import Request.
-  Time since last request: 36.993498 seconds.
-  path: Assets/Prefabs/Towers/Chito_07.prefab
-  artifactKey: Guid(ccfddc0e4946ced47a0c01be688f526b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_07.prefab using Guid(ccfddc0e4946ced47a0c01be688f526b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376d76fe5a8b671c34b1cc8a427c09b5') in 0.199638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 555
-========================================================================
-Received Import Request.
-  Time since last request: 76.642303 seconds.
-  path: Assets/Prefabs/Towers/TowerDebuff.prefab
-  artifactKey: Guid(b256ec0e6471ce34e836c2676d139d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/TowerDebuff.prefab using Guid(b256ec0e6471ce34e836c2676d139d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0615d87721344ea22e6bd517572ea36c') in 0.034643 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 7.609170 seconds.
-  path: Assets/Prefabs/Towers/Chito_09.prefab
-  artifactKey: Guid(b256ec0e6471ce34e836c2676d139d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_09.prefab using Guid(b256ec0e6471ce34e836c2676d139d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e1085acd88dec6b15847545378c009') in 0.018483 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 15.629000 seconds.
-  path: Assets/Prefabs/Towers/Chito_05.prefab
-  artifactKey: Guid(a65785a3f1622b54482330d0773adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_05.prefab using Guid(a65785a3f1622b54482330d0773adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d96e4db1f4abd93bb7f4b22c306c3d2') in 0.011719 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 26.596280 seconds.
-  path: Assets/Prefabs/Towers/Chito_05.prefab
-  artifactKey: Guid(a65785a3f1622b54482330d0773adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_05.prefab using Guid(a65785a3f1622b54482330d0773adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0b74a47ef8cd37f34272bdb96d979f') in 0.020632 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 62.619796 seconds.
-  path: Assets/Prefabs/TowerRange 1.asset
-  artifactKey: Guid(43fb944e4f9071f47a4d16cb3520544f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TowerRange 1.asset using Guid(43fb944e4f9071f47a4d16cb3520544f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984ae97a0cec1fc55554bc86f99dfec9') in 0.004955 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 12.338819 seconds.
-  path: Assets/Prefabs/Chito_01.asset
-  artifactKey: Guid(80b20c82a6fe52b4bab0cac96f8bcc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chito_01.asset using Guid(80b20c82a6fe52b4bab0cac96f8bcc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1d8c070d44830069df7790738ebcf1') in 0.004547 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 7.315367 seconds.
-  path: Assets/Prefabs/Chito_08.asset
-  artifactKey: Guid(43fb944e4f9071f47a4d16cb3520544f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chito_08.asset using Guid(43fb944e4f9071f47a4d16cb3520544f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e84d3216351d28ce71ccb285f92287b') in 0.005605 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 69.966767 seconds.
-  path: Assets/Prefabs/Chito_00 1.asset
-  artifactKey: Guid(a36f75d2fd75cd14ab3342ea0341bb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chito_00 1.asset using Guid(a36f75d2fd75cd14ab3342ea0341bb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fe07c23505559884537cc05b1680c5') in 0.013316 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 72
-========================================================================
-Received Import Request.
-  Time since last request: 4.749558 seconds.
-  path: Assets/Prefabs/Chito_02.asset
-  artifactKey: Guid(a36f75d2fd75cd14ab3342ea0341bb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chito_02.asset using Guid(a36f75d2fd75cd14ab3342ea0341bb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f486481fd9ec542ebc005bc65a6fe593') in 0.014032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 72
-========================================================================
-Received Import Request.
-  Time since last request: 9.327391 seconds.
-  path: Assets/Prefabs/Chito_02 1.asset
-  artifactKey: Guid(16eb9f3ffff7ae8458084f5049fa88b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chito_02 1.asset using Guid(16eb9f3ffff7ae8458084f5049fa88b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b4b56d790a865fd4931c4ee67a6539') in 0.012126 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 72
-========================================================================
-Received Import Request.
-  Time since last request: 3.976424 seconds.
-  path: Assets/Prefabs/Chito_04.asset
-  artifactKey: Guid(16eb9f3ffff7ae8458084f5049fa88b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chito_04.asset using Guid(16eb9f3ffff7ae8458084f5049fa88b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05eaa9166bad85a36414f601494b08a') in 0.013687 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 72
-========================================================================
-Received Import Request.
-  Time since last request: 39.104431 seconds.
-  path: Assets/Prefabs/Towers/TowerRange.prefab
-  artifactKey: Guid(66aa41e0b29000848986f375f68fd5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/TowerRange.prefab using Guid(66aa41e0b29000848986f375f68fd5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85a94a89ba647cf378e26634a49210d') in 0.200145 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 549
-========================================================================
-Received Import Request.
-  Time since last request: 331.111017 seconds.
-  path: Assets/Prefabs/Towers/Chito_09.prefab
-  artifactKey: Guid(b256ec0e6471ce34e836c2676d139d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_09.prefab using Guid(b256ec0e6471ce34e836c2676d139d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3e9bae2203e25a65cde99639bea0b6') in 0.013917 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 3.748350 seconds.
-  path: Assets/Prefabs/Towers/Chito_09.prefab
-  artifactKey: Guid(b256ec0e6471ce34e836c2676d139d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_09.prefab using Guid(b256ec0e6471ce34e836c2676d139d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7baed0cac6e56e4e7455e9f6dc653ad4') in 0.013061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 36.681014 seconds.
-  path: Assets/Prefabs/Towers/Chito_05.prefab
-  artifactKey: Guid(a65785a3f1622b54482330d0773adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_05.prefab using Guid(a65785a3f1622b54482330d0773adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0f12053fde99062c26939553ca5a86') in 0.013662 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 2.585078 seconds.
-  path: Assets/Prefabs/Towers/Chito_05.prefab
-  artifactKey: Guid(a65785a3f1622b54482330d0773adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_05.prefab using Guid(a65785a3f1622b54482330d0773adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32af9d3a60a0ebd6972f40c3e874c1f9') in 0.014023 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 15.920689 seconds.
-  path: Assets/Prefabs/Towers/Chito_05.prefab
-  artifactKey: Guid(a65785a3f1622b54482330d0773adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_05.prefab using Guid(a65785a3f1622b54482330d0773adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dda5ae43d456292dd2a457b5fd38643') in 0.021705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 5.477067 seconds.
-  path: Assets/Prefabs/Towers/Chito_07.prefab
-  artifactKey: Guid(ccfddc0e4946ced47a0c01be688f526b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_07.prefab using Guid(ccfddc0e4946ced47a0c01be688f526b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01eac7c42ef206d2cb81b8bc06c8445') in 0.201413 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 555
-========================================================================
-Received Import Request.
-  Time since last request: 4.075890 seconds.
-  path: Assets/Prefabs/Towers/Chito_09.prefab
-  artifactKey: Guid(b256ec0e6471ce34e836c2676d139d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_09.prefab using Guid(b256ec0e6471ce34e836c2676d139d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e534aea5f4c0e492910ed1e43ada88a0') in 0.023192 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 111.868788 seconds.
-  path: Assets/Assets/Images/1성/ㄱ。기본형/Nomal1.controller
-  artifactKey: Guid(ccf9ea549954e6a43b4777ef415ca1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/ㄱ。기본형/Nomal1.controller using Guid(ccf9ea549954e6a43b4777ef415ca1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9518b2cbd664c2bcf2ffb8e4d91aba') in 0.008391 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 36
-========================================================================
-Received Import Request.
-  Time since last request: 99.018466 seconds.
-  path: Assets/Assets/Images/1성/간호대/Nomal1.controller
-  artifactKey: Guid(c49b20e70eadb0e4c978e7cb5dbec40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/간호대/Nomal1.controller using Guid(c49b20e70eadb0e4c978e7cb5dbec40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0542f222579bca9c47619fc3f2a60da') in 0.003836 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 9.653037 seconds.
-  path: Assets/Assets/Images/1성/간호대/right.anim
-  artifactKey: Guid(03e8d70d497059f40a50db068069571f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/간호대/right.anim using Guid(03e8d70d497059f40a50db068069571f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7a644a9d984d2dd7998c5fea08cbc5') in 0.001601 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.600541 seconds.
-  path: Assets/Assets/Images/1성/간호대/up.anim
-  artifactKey: Guid(d64afc941b84dbb4eabfb17f664ad37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/간호대/up.anim using Guid(d64afc941b84dbb4eabfb17f664ad37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d8315c33a1322245717e26a9888d1f') in 0.001565 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.428602 seconds.
-  path: Assets/Assets/Images/1성/간호대/left.anim
-  artifactKey: Guid(e2c19d1072fb048458c209eaba7415f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/간호대/left.anim using Guid(e2c19d1072fb048458c209eaba7415f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de7b6c4c46c4dc25454244a3c2cf419') in 0.001448 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.532487 seconds.
-  path: Assets/Assets/Images/1성/간호대/down.anim
-  artifactKey: Guid(7431fc339014c464aa8bd1d748e5eead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/간호대/down.anim using Guid(7431fc339014c464aa8bd1d748e5eead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767aaf4375fab4ecc391f5687cf83176') in 0.001636 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 10.427596 seconds.
-  path: Assets/Assets/Images/1성/간호대/Nomal1.controller
-  artifactKey: Guid(b18d15cd1393ed04b85ac164c3039488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/간호대/Nomal1.controller using Guid(b18d15cd1393ed04b85ac164c3039488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ae5324cfc810d50a2c8d9e77651ab2') in 0.007383 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 44.548769 seconds.
-  path: Assets/Assets/Images/1성/ㄱ。기본형/Nomal1.controller
-  artifactKey: Guid(ccf9ea549954e6a43b4777ef415ca1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/ㄱ。기본형/Nomal1.controller using Guid(ccf9ea549954e6a43b4777ef415ca1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd12b6fc2ac03dc35d0de6cde207052') in 0.007893 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.678 seconds
-Refreshing native plugins compatible for Editor in 7.78 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.426 seconds
-Domain Reload Profiling: 2093ms
-	BeginReloadAssembly (206ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (355ms)
-		LoadAssemblies (468ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1426ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (521ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (323ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (21ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 6.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3279 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (30.5 KB). Loaded Objects now: 3783.
-Memory consumption went from 130.7 MB to 130.7 MB.
-Total: 3.172600 ms (FindLiveObjects: 0.451900 ms CreateObjectMapping: 0.099400 ms MarkObjects: 2.570700 ms  DeleteObjects: 0.049800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.616 seconds
-Refreshing native plugins compatible for Editor in 6.17 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.337 seconds
-Domain Reload Profiling: 1944ms
-	BeginReloadAssembly (184ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (322ms)
-		LoadAssemblies (417ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1338ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (515ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (314ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
-			AfterProcessingInitializeOnLoad (22ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 6.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3280 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (30.5 KB). Loaded Objects now: 3786.
-Memory consumption went from 130.9 MB to 130.9 MB.
-Total: 3.027100 ms (FindLiveObjects: 0.380300 ms CreateObjectMapping: 0.090600 ms MarkObjects: 2.512700 ms  DeleteObjects: 0.042600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.614 seconds
-Refreshing native plugins compatible for Editor in 6.10 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.366 seconds
-Domain Reload Profiling: 1972ms
-	BeginReloadAssembly (188ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (318ms)
-		LoadAssemblies (413ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1367ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (505ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (99ms)
-			ProcessInitializeOnLoadAttributes (309ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (22ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 7.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3280 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (30.5 KB). Loaded Objects now: 3789.
-Memory consumption went from 130.9 MB to 130.9 MB.
-Total: 3.283800 ms (FindLiveObjects: 0.454100 ms CreateObjectMapping: 0.102500 ms MarkObjects: 2.677800 ms  DeleteObjects: 0.047900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 582.568414 seconds.
-  path: Assets/Assets/Images/1성/ㄱ。기본형/Chito_anim.controller
-  artifactKey: Guid(ccf9ea549954e6a43b4777ef415ca1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/ㄱ。기본형/Chito_anim.controller using Guid(ccf9ea549954e6a43b4777ef415ca1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c926e9c97f81f1f14de69cbd556e6e') in 0.020475 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 33.931773 seconds.
-  path: Assets/Assets/Images/1성/간호대/Chito_anim.controller
-  artifactKey: Guid(45a99df7f0c4ca842b59658e7301b095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/간호대/Chito_anim.controller using Guid(45a99df7f0c4ca842b59658e7301b095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1ccf6bd421641b41129f3f29160d7d') in 0.007328 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 13.599059 seconds.
-  path: Assets/Assets/Images/1성/간호대/N_Chito_anim.controller
-  artifactKey: Guid(45a99df7f0c4ca842b59658e7301b095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/간호대/N_Chito_anim.controller using Guid(45a99df7f0c4ca842b59658e7301b095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da1d74a596c90df5fd3b4fa96c43d0d') in 0.007031 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 115.144417 seconds.
-  path: Assets/Prefabs/Towers/Chito_00.prefab
-  artifactKey: Guid(3e73adc95c23a404ab5712c6149199c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_00.prefab using Guid(3e73adc95c23a404ab5712c6149199c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aba5e603f2d1c467190639c800a27df') in 0.277677 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 553
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prefabs/Towers/Chito_06.prefab
-  artifactKey: Guid(dc961447b35e2f44eae17374371d61de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_06.prefab using Guid(dc961447b35e2f44eae17374371d61de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6742e139b151e7daae623f1ff6803469') in 0.193207 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 557
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Prefabs/Towers/TowerRange.prefab
-  artifactKey: Guid(66aa41e0b29000848986f375f68fd5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/TowerRange.prefab using Guid(66aa41e0b29000848986f375f68fd5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf51ffb4f78362cf91559f0ca282a58') in 0.201244 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 590
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Prefabs/Towers/Chito_04.prefab
-  artifactKey: Guid(cabeceda0581ad94d96a7c8b3216aebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_04.prefab using Guid(cabeceda0581ad94d96a7c8b3216aebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50ac8693a1c0f587d45940cb2f284c6') in 0.205612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 564
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Prefabs/Towers/Chito_05.prefab
-  artifactKey: Guid(a65785a3f1622b54482330d0773adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_05.prefab using Guid(a65785a3f1622b54482330d0773adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3338fef2417c86ba9bdc08067885a2') in 0.020870 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 31.896439 seconds.
-  path: Assets/Prefabs/Towers/Chito_00.prefab
-  artifactKey: Guid(3e73adc95c23a404ab5712c6149199c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_00.prefab using Guid(3e73adc95c23a404ab5712c6149199c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64420d83fb091aa1fcb9e506adba81d9') in 0.229885 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 553
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prefabs/Towers/TowerRange.prefab
-  artifactKey: Guid(66aa41e0b29000848986f375f68fd5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/TowerRange.prefab using Guid(66aa41e0b29000848986f375f68fd5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8b61c28687f94322690766ee081442') in 0.188180 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 590
-========================================================================
-Received Import Request.
-  Time since last request: 1.485379 seconds.
-  path: Assets/Prefabs/Towers/TowerRange.prefab
-  artifactKey: Guid(66aa41e0b29000848986f375f68fd5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/TowerRange.prefab using Guid(66aa41e0b29000848986f375f68fd5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd23faa412d153128dc62655bebf942') in 0.205633 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 590
-========================================================================
-Received Import Request.
-  Time since last request: 8.796522 seconds.
-  path: Assets/Prefabs/Towers/Chito_08.prefab
-  artifactKey: Guid(6540b3487693af34dbffdaf30a840841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_08.prefab using Guid(6540b3487693af34dbffdaf30a840841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8246fafdfc0bc413fdca215a5e4f63ef') in 0.207530 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 576
-========================================================================
-Received Import Request.
-  Time since last request: 1064.696222 seconds.
-  path: Assets/Prefabs/Towers/Chito_08.prefab
-  artifactKey: Guid(6540b3487693af34dbffdaf30a840841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Towers/Chito_08.prefab using Guid(6540b3487693af34dbffdaf30a840841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12f9dff66589a0d05dd9a25d2526825') in 0.431554 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1096
-========================================================================
-Received Import Request.
-  Time since last request: 157.835431 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00000.png
-  artifactKey: Guid(85438fe45548c2844b9997f7f0210a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00000.png using Guid(85438fe45548c2844b9997f7f0210a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e462f4c06ac78c4a635a19c7928e3020') in 0.065674 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00016.png
-  artifactKey: Guid(b2669f27186282a4faad43e854a98350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00016.png using Guid(b2669f27186282a4faad43e854a98350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e852ebeeb4835094467d3055accf489f') in 0.032460 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00007.png
-  artifactKey: Guid(d4485fa58c51e8c49a53ad3f70e2b749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00007.png using Guid(d4485fa58c51e8c49a53ad3f70e2b749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baee555f0023a9f403905627da380a27') in 0.027880 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00011.png
-  artifactKey: Guid(36e32798208ade542b242f14d6fafa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00011.png using Guid(36e32798208ade542b242f14d6fafa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1fd2575822efbfbdda829bdd6fb3aa') in 0.033796 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00003.png
-  artifactKey: Guid(ab6a7ebaee4539f40ab6b8b5ae09da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00003.png using Guid(ab6a7ebaee4539f40ab6b8b5ae09da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7de17a974b72148a15eee5e8e5710a') in 0.029208 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00006.png
-  artifactKey: Guid(9bea7e6acc1093e468b7eb2142a22745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00006.png using Guid(9bea7e6acc1093e468b7eb2142a22745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f68ddf47f601c7b1327d150e31a9653') in 0.033358 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00002.png
-  artifactKey: Guid(c5b886980ad297d4ebf672ba98055033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00002.png using Guid(c5b886980ad297d4ebf672ba98055033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b852260691bfd39bb0ecc835bd3b2d') in 0.027287 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00014.png
-  artifactKey: Guid(489457e51ef63fc4c90600b80ffd4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00014.png using Guid(489457e51ef63fc4c90600b80ffd4b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61eb30f359b87aee8f5073819ca9c1ac') in 0.027384 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00009.png
-  artifactKey: Guid(4f9fadba7a2f7ea4988e25aa39a99534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00009.png using Guid(4f9fadba7a2f7ea4988e25aa39a99534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12254b0814e05bcda24c5f34e6404f75') in 0.027025 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00005.png
-  artifactKey: Guid(33369718fe867424abc36066dbae2b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00005.png using Guid(33369718fe867424abc36066dbae2b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387f6636d4149eeaf3c2b272c39753ff') in 0.025879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00015.png
-  artifactKey: Guid(173e8dbe0c01d9f438366be8c1f8d2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00015.png using Guid(173e8dbe0c01d9f438366be8c1f8d2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f73745fe18601005a2250a15ead117') in 0.029318 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00008.png
-  artifactKey: Guid(87fb525a74c895d478fcdc116303dd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00008.png using Guid(87fb525a74c895d478fcdc116303dd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b19497abf7d704a5b50226c93e04a46') in 0.027507 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00017.png
-  artifactKey: Guid(222c82ab9c8a6714a9379693789db34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00017.png using Guid(222c82ab9c8a6714a9379693789db34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43b3b1ab63de393d51876c19cf763fd') in 0.028427 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00012.png
-  artifactKey: Guid(44a73ebe554e8ec4ca8eeee9571b1e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00012.png using Guid(44a73ebe554e8ec4ca8eeee9571b1e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43d0372828de8d66d10dfdcc0fbda4e') in 0.026711 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00001.png
-  artifactKey: Guid(52db023c7da928a48956868068d9ac33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00001.png using Guid(52db023c7da928a48956868068d9ac33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d10d8fd5124754a8be540e83d544232') in 0.027749 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00018.png
-  artifactKey: Guid(bfffe68b720245d45804a2ee64d524d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00018.png using Guid(bfffe68b720245d45804a2ee64d524d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9701bfe11d9283a4798d1170d0a293d2') in 0.029295 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00017.png
-  artifactKey: Guid(3c48bf72112a4354192a799d15ce23c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00017.png using Guid(3c48bf72112a4354192a799d15ce23c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2403c4fc916c9620122dc35ce7a5a670') in 0.025573 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00016.png
-  artifactKey: Guid(e1d8d23cb68703a479cc47a48fb1da23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00016.png using Guid(e1d8d23cb68703a479cc47a48fb1da23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a09b59e3846b5cf3d932b00689811d') in 0.029750 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00009.png
-  artifactKey: Guid(eb6faf8655a53aa4a8dbb2db206c71b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(좌)/치토사회과학대 측면(좌)_00009.png using Guid(eb6faf8655a53aa4a8dbb2db206c71b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64530690594b5dadb68f89aabf008530') in 0.027477 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00005.png
-  artifactKey: Guid(f0644a9d7019c0e4ea6430e3258334a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 후면 모션/치토사회과학대 후면_00005.png using Guid(f0644a9d7019c0e4ea6430e3258334a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5e4359c9edd4fa10b0e7e0a74ae885') in 0.025396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.431381 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(우)/치토사회과학대 측면(우)_00002.png
-  artifactKey: Guid(cea6dfe2818290346b2276b9f1db1540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(우)/치토사회과학대 측면(우)_00002.png using Guid(cea6dfe2818290346b2276b9f1db1540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e3fd8e1c5b44d8f801e5c16673bb88') in 0.044200 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(우)/치토사회과학대 측면(우)_00004.png
-  artifactKey: Guid(039ba08febfab5748a5e3c996276e834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(우)/치토사회과학대 측면(우)_00004.png using Guid(039ba08febfab5748a5e3c996276e834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf509769b8040fb8fe69c743aed83f33') in 0.029603 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(우)/치토사회과학대 측면(우)_00012.png
-  artifactKey: Guid(2590e755f97502a43b2a84c10d2f5f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(우)/치토사회과학대 측면(우)_00012.png using Guid(2590e755f97502a43b2a84c10d2f5f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa4eb4db9953ab2b936a6ff4ae31746') in 0.030124 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(우)/치토사회과학대 측면(우)_00013.png
-  artifactKey: Guid(6dd75522e9296e248851ce88895393ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(우)/치토사회과학대 측면(우)_00013.png using Guid(6dd75522e9296e248851ce88895393ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b1be8fe1403a8cd0b8ebf472134e45') in 0.027494 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(우)/치토사회과학대 측면(우)_00014.png
-  artifactKey: Guid(f31227a143ee8c34ba6cc0dcef592ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(우)/치토사회과학대 측면(우)_00014.png using Guid(f31227a143ee8c34ba6cc0dcef592ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2845a8092847f2214d58901d0991a2b') in 0.028850 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(우)/치토사회과학대 측면(우)_00018.png
-  artifactKey: Guid(a1f05878b8ec02a46a4dddecf63606ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(우)/치토사회과학대 측면(우)_00018.png using Guid(a1f05878b8ec02a46a4dddecf63606ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af37f1e6fd77bc9413f98a94d6380e2d') in 0.028816 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(우)/치토사회과학대 측면(우)_00011.png
-  artifactKey: Guid(c76146ed18f71dd4898a888bbff6ef46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(우)/치토사회과학대 측면(우)_00011.png using Guid(c76146ed18f71dd4898a888bbff6ef46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd3ccdf845bf7905cffac798421fd93') in 0.028672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(우)/치토사회과학대 측면(우)_00015.png
-  artifactKey: Guid(512f33794aa047e489f0265854e67534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(우)/치토사회과학대 측면(우)_00015.png using Guid(512f33794aa047e489f0265854e67534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7527ca4d911da5095d37bff299d6722') in 0.027715 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(우)/치토사회과학대 측면(우)_00007.png
-  artifactKey: Guid(db8d3535a1769f54391b94a9b9c1b508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/사회과학대/치토사회과학대 측면 모션(우)/치토사회과학대 측면(우)_00007.png using Guid(db8d3535a1769f54391b94a9b9c1b508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d5d696e585d2ad48322c8babf50d07') in 0.028205 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 825.219537 seconds.
-  path: Assets/Assets/Images/1성/공대/치토공대 측면 모션(우)/치토공대 측면(우)_00002.png
-  artifactKey: Guid(2ceac663729350f40899b9d563416f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/공대/치토공대 측면 모션(우)/치토공대 측면(우)_00002.png using Guid(2ceac663729350f40899b9d563416f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673fd3f1eee2beed0aa8b595c9911637') in 0.092565 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Assets/Images/1성/공대/치토공대 측면 모션(우)/치토공대 측면(우)_00006.png
-  artifactKey: Guid(8c6cfe7c57d1f9843b96ca544d88a765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/공대/치토공대 측면 모션(우)/치토공대 측면(우)_00006.png using Guid(8c6cfe7c57d1f9843b96ca544d88a765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fdbb1097b7a31b78da29e7501a5980') in 0.030413 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/Images/1성/공대/치토공대 측면 모션(우)/치토공대 측면(우)_00014.png
-  artifactKey: Guid(9839560cd76cbd241b61262f16a3c123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/공대/치토공대 측면 모션(우)/치토공대 측면(우)_00014.png using Guid(9839560cd76cbd241b61262f16a3c123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f5b56283aff30d26e007b187e46f79') in 0.029247 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Images/1성/공대/치토공대 측면 모션(우)/치토공대 측면(우)_00019.png
-  artifactKey: Guid(849982ba21270954b8369176d04dfc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/공대/치토공대 측면 모션(우)/치토공대 측면(우)_00019.png using Guid(849982ba21270954b8369176d04dfc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b33caf2120bdecbf7d1713d669b8ff') in 0.030378 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/Assets/Images/1성/공대/치토공대 측면 모션(우)/치토공대 측면(우)_00013.png
-  artifactKey: Guid(104196a7bf1dffb4d9739169a766a545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/공대/치토공대 측면 모션(우)/치토공대 측면(우)_00013.png using Guid(104196a7bf1dffb4d9739169a766a545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf63387091cd9eec0f6484f35c2824a4') in 0.029173 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Assets/Images/1성/공대/치토공대 측면 모션(우)/치토공대 측면(우)_00011.png
-  artifactKey: Guid(7f70084f5bc91034789c36694a935fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/공대/치토공대 측면 모션(우)/치토공대 측면(우)_00011.png using Guid(7f70084f5bc91034789c36694a935fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1134537bff0c23c6a9f5aa7fd17776') in 0.029848 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Assets/Images/1성/공대/치토공대 측면 모션(우)/치토공대 측면(우)_00005.png
-  artifactKey: Guid(8a365886e29536540ad0afe22a2037e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/공대/치토공대 측면 모션(우)/치토공대 측면(우)_00005.png using Guid(8a365886e29536540ad0afe22a2037e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fb4784804ff3bcf0cb2a3b4717ec61') in 0.026165 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Assets/Images/1성/공대/치토공대 측면 모션(우)/치토공대 측면(우)_00007.png
-  artifactKey: Guid(4210cf424ec332d4a84bd7efca385bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/공대/치토공대 측면 모션(우)/치토공대 측면(우)_00007.png using Guid(4210cf424ec332d4a84bd7efca385bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823c5fe10d049dca331769c53e2a6be4') in 0.025873 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Assets/Images/1성/공대/치토공대 측면 모션(우)/치토공대 측면(우)_00009.png
-  artifactKey: Guid(4f736084c7db980428513c538a9501c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/공대/치토공대 측면 모션(우)/치토공대 측면(우)_00009.png using Guid(4f736084c7db980428513c538a9501c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9618c21097f375977c88bb37fa3a4b4') in 0.028316 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.151676 seconds.
-  path: Assets/Assets/Images/1성/공대/치토공대 측면 모션(좌)/치토공대 측면(좌)_00001.png
-  artifactKey: Guid(46fa956945ea8e64d92cd834d62d88f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/공대/치토공대 측면 모션(좌)/치토공대 측면(좌)_00001.png using Guid(46fa956945ea8e64d92cd834d62d88f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1439275b20c12c50225c9be97f8e0e8') in 0.031327 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Assets/Images/1성/공대/치토공대 측면 모션(좌)/치토공대 측면(좌)_00002.png
-  artifactKey: Guid(46de997fd62ef0b4ea50bc286182032f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/공대/치토공대 측면 모션(좌)/치토공대 측면(좌)_00002.png using Guid(46de997fd62ef0b4ea50bc286182032f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507a141adccc70f2a13efc75e37da46a') in 0.030220 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Assets/Images/1성/공대/치토공대 측면 모션(좌)/치토공대 측면(좌)_00005.png
-  artifactKey: Guid(f01ec37b4e11e224aafc58ddf6c8af9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/공대/치토공대 측면 모션(좌)/치토공대 측면(좌)_00005.png using Guid(f01ec37b4e11e224aafc58ddf6c8af9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca086787eb07694f26a84db86f3bbb31') in 0.031786 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/Images/1성/공대/치토공대 측면 모션(좌)/치토공대 측면(좌)_00008.png
-  artifactKey: Guid(adc822229a34d4845a64175cd2592537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/공대/치토공대 측면 모션(좌)/치토공대 측면(좌)_00008.png using Guid(adc822229a34d4845a64175cd2592537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7284a6c683c2c6a06b674bbc408fdb56') in 0.028864 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Images/1성/공대/치토공대 측면 모션(좌)/치토공대 측면(좌)_00004.png
-  artifactKey: Guid(e44f4d8a09d5984448cf60d1e0d5e44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/1성/공대/치토공대 측면 모션(좌)/치토공대 측면(좌)_00004.png using Guid(e44f4d8a09d5984448cf60d1e0d5e44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c99ca5269f88d587bbc2194413dc40b') in 0.030445 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ������ ���� �Ǵ� ���� ���α׷� ��û ������ I/O �۾��� ��ҵǾ����ϴ�.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Compilation Pipeline: Could not read file Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef
+Fatal Error! Compilation Pipeline: Could not read file Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef
+Obtained 35 stack frames.
+#0  0x0000018ee76a60 in __pthread_kill
+#1  0xbe7b80018edbba20 in abort
+#2  0x915d800104fbd94c in __cxx_global_var_init.3
+#3  0x00000103b9b5c0 in EditorMonoConsole::LogToConsoleImplementation(CppLogEntry&)
+#4  0x00000103b9b210 in EditorMonoConsole::LogToConsoleImplementation(DebugStringToFileData const&)
+#5  0x00000103b9ca54 in LogToConsoleImplementation(DebugStringToFileData const&)
+#6  0x00000104908148 in DebugStringToFilePostprocessedStacktrace(DebugStringToFileData const&)
+#7  0x00000104908a1c in DebugStringToFile(DebugStringToFileData const&)
+#8  0x000001040a9610 in RegisterAssemblyDefinition(core::basic_string<char, core::StringStorageDefault<char>> const&)
+#9  0x00000104499e70 in UpdateScriptCompilationPipelineCaches(ScriptChanges const&, bool)
+#10 0x0000010449a6d8 in WorkerInitializeAndProcessScriptChanges()
+#11 0x00000103d2e850 in Application::InitializeProject()
+#12 0x00000104fc9634 in -[EditorApplication applicationDidFinishLaunching:]
+#13 0x0000018ef82b1c in __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+#14 0x542c00018f016db8 in ___CFXRegistrationPost_block_invoke
+#15 0x162e00018f016d00 in _CFXRegistrationPost
+#16 0x291380018ef51648 in _CFXNotificationPost
+#17 0x223680019006d464 in -[NSNotificationCenter postNotificationName:object:userInfo:]
+#18 0xd71a8001927ec37c in -[NSApplication _postDidFinishNotification]
+#19 0x1c240001927ec12c in -[NSApplication _sendFinishLaunchingNotification]
+#20 0x2f668001927ea674 in -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+#21 0xcb2c0001927ea270 in -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+#22 0x867e000190095914 in -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+#23 0xa25000190095708 in _NSAppleEventManagerGenericHandler
+#24 0x5274800195fa69c4 in _AppleEventsCheckInAppWithBlock
+#25 0x2e57000195fa62ec in _AppleEventsCheckInAppWithBlock
+#26 0xed16800195f9f8a8 in aeProcessAppleEvent
+#27 0x5c18000199736e90 in AEProcessAppleEvent
+#28 0xf53b0001927e4c7c in _DPSNextEvent
+#29 0x6946800192fd6dec in -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#30 0x61240001927d7cb8 in -[NSApplication run]
+#31 0x153c0001927aef54 in NSApplicationMain
+#32 0x6b43000104fe2d6c in EditorMain(int, char const**)
+#33 0x00000104fe30b8 in main
+#34 0x0000018eb260e0 in start
