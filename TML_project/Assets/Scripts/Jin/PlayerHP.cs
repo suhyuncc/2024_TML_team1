@@ -26,7 +26,9 @@ public class PlayerHP : MonoBehaviour
 
         if (currentHP <= 0)
         {
-
+            // 게임 오버 
+            Time.timeScale = 0;
+            GameOver();
         }
     }
     private IEnumerator HitAlphaAnimation()
@@ -43,5 +45,8 @@ public class PlayerHP : MonoBehaviour
             yield return null;
         }
     }
-
+    public void GameOver()
+    {
+        Debug.Log("GameOver");
+    }
 }

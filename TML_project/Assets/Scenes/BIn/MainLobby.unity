@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8925216
 RectTransform:
   m_ObjectHideFlags: 0
@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.034698922}
   m_AnchorMax: {x: 0, y: 0.034698922}
-  m_AnchoredPosition: {x: 124.02997, y: 536.86}
-  m_SizeDelta: {x: 1608.01, y: 256.51}
+  m_AnchoredPosition: {x: 15.200012, y: 57.800003}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8925217
 MonoBehaviour:
@@ -207,12 +207,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2108116423}
         m_TargetAssemblyTypeName: SceneManeger, Assembly-CSharp
-        m_MethodName: NextStage
-        m_Mode: 3
+        m_MethodName: GoToScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 8
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: EastHall
           m_BoolArgument: 0
@@ -303,10 +303,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
+  m_UiScaleMode: 2
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -375,7 +375,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &129399332
 RectTransform:
   m_ObjectHideFlags: 0
@@ -392,8 +392,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.034698922}
   m_AnchorMax: {x: 0, y: 0.034698922}
-  m_AnchoredPosition: {x: 935, y: 520}
-  m_SizeDelta: {x: 1289.7, y: 416.67}
+  m_AnchoredPosition: {x: 103.100006, y: 52.699997}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &129399333
 MonoBehaviour:
@@ -441,12 +441,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2108116423}
         m_TargetAssemblyTypeName: SceneManeger, Assembly-CSharp
-        m_MethodName: NextStage
-        m_Mode: 3
+        m_MethodName: GoToScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 6
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: YulGok
           m_BoolArgument: 0
@@ -507,7 +507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &158476239
 RectTransform:
   m_ObjectHideFlags: 0
@@ -524,8 +524,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.81}
   m_AnchorMin: {x: 0, y: 0.034698922}
   m_AnchorMax: {x: 0, y: 0.034698922}
-  m_AnchoredPosition: {x: 1367, y: 475}
-  m_SizeDelta: {x: 1431.85, y: 230.63}
+  m_AnchoredPosition: {x: 148.2, y: 51.699997}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &158476240
 MonoBehaviour:
@@ -573,12 +573,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2108116423}
         m_TargetAssemblyTypeName: SceneManeger, Assembly-CSharp
-        m_MethodName: NextStage
-        m_Mode: 3
+        m_MethodName: GoToScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: HongJae
           m_BoolArgument: 0
@@ -639,7 +639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &313415219
 RectTransform:
   m_ObjectHideFlags: 0
@@ -656,8 +656,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -4.779}
   m_AnchorMin: {x: 0, y: 0.034698922}
   m_AnchorMax: {x: 0, y: 0.034698922}
-  m_AnchoredPosition: {x: 347.02997, y: 450.31}
-  m_SizeDelta: {x: 1791, y: 246.24}
+  m_AnchoredPosition: {x: 39.899963, y: 49.59999}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &313415220
 MonoBehaviour:
@@ -705,26 +705,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2108116423}
         m_TargetAssemblyTypeName: SceneManeger, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
+        m_MethodName: GoToScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: WonCheon
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2108116423}
-        m_TargetAssemblyTypeName: SceneManeger, Assembly-CSharp
-        m_MethodName: NextStage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 7
-          m_FloatArgument: 0
-          m_StringArgument: 1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &313415221
@@ -783,7 +771,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &361432058
 RectTransform:
   m_ObjectHideFlags: 0
@@ -800,8 +788,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.034698922}
   m_AnchorMax: {x: 0, y: 0.034698922}
-  m_AnchoredPosition: {x: 1255, y: 553}
-  m_SizeDelta: {x: 1255.47, y: 233.86}
+  m_AnchoredPosition: {x: 135.2, y: 62.4}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &361432059
 MonoBehaviour:
@@ -849,12 +837,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2108116423}
         m_TargetAssemblyTypeName: SceneManeger, Assembly-CSharp
-        m_MethodName: NextStage
-        m_Mode: 3
+        m_MethodName: GoToScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: YeonAm
           m_BoolArgument: 0
@@ -1092,8 +1080,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.034698922}
   m_AnchorMax: {x: 0, y: 0.034698922}
-  m_AnchoredPosition: {x: 1597, y: 446}
-  m_SizeDelta: {x: 1479.27, y: 319.52}
+  m_AnchoredPosition: {x: 173.7, y: 47.40001}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &534933838
 MonoBehaviour:
@@ -1141,12 +1129,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2108116423}
         m_TargetAssemblyTypeName: SceneManeger, Assembly-CSharp
-        m_MethodName: NextStage
-        m_Mode: 3
+        m_MethodName: GoToScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: SongJae
           m_BoolArgument: 0
@@ -1207,7 +1195,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &626439921
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1224,8 +1212,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.034698922}
   m_AnchorMax: {x: 0, y: 0.034698922}
-  m_AnchoredPosition: {x: 1351.49, y: 674.39}
-  m_SizeDelta: {x: 1285.58, y: 190.9}
+  m_AnchoredPosition: {x: 148.4, y: 75.2}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &626439922
 MonoBehaviour:
@@ -1273,12 +1261,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2108116423}
         m_TargetAssemblyTypeName: SceneManeger, Assembly-CSharp
-        m_MethodName: NextStage
-        m_Mode: 3
+        m_MethodName: GoToScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Pharmacy
           m_BoolArgument: 0
@@ -1339,7 +1327,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1102162204
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1356,8 +1344,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.034698922}
   m_AnchorMax: {x: 0, y: 0.034698922}
-  m_AnchoredPosition: {x: 457.1, y: 912}
-  m_SizeDelta: {x: 1166.64, y: 218.22}
+  m_AnchoredPosition: {x: 49.100006, y: 97.2}
+  m_SizeDelta: {x: 115.049, y: 21.572}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1102162205
 MonoBehaviour:
@@ -1471,7 +1459,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1257188429
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1488,8 +1476,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.034698922}
   m_AnchorMax: {x: 0, y: 0.034698922}
-  m_AnchoredPosition: {x: 377, y: 608.15}
-  m_SizeDelta: {x: 1157.55, y: 207.52}
+  m_AnchoredPosition: {x: 39.600006, y: 68.3}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1257188430
 MonoBehaviour:
@@ -1537,12 +1525,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2108116423}
         m_TargetAssemblyTypeName: SceneManeger, Assembly-CSharp
-        m_MethodName: NextStage
-        m_Mode: 3
+        m_MethodName: GoToScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 9
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: PalDal
           m_BoolArgument: 0
@@ -1699,16 +1687,16 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 534933837}
-  - {fileID: 158476239}
-  - {fileID: 626439921}
-  - {fileID: 361432058}
-  - {fileID: 2055181959}
-  - {fileID: 129399332}
   - {fileID: 313415219}
-  - {fileID: 8925216}
-  - {fileID: 1257188429}
   - {fileID: 1102162204}
+  - {fileID: 2055181959}
+  - {fileID: 626439921}
+  - {fileID: 534933837}
+  - {fileID: 129399332}
+  - {fileID: 1257188429}
+  - {fileID: 8925216}
+  - {fileID: 158476239}
+  - {fileID: 361432058}
   m_Father: {fileID: 30462035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1772,7 +1760,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2055181959
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1789,8 +1777,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.034698922}
   m_AnchorMax: {x: 0, y: 0.034698922}
-  m_AnchoredPosition: {x: 1055, y: 653.64}
-  m_SizeDelta: {x: 1157.55, y: 298.51}
+  m_AnchoredPosition: {x: 115.399994, y: 70.1}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2055181960
 MonoBehaviour:
@@ -1838,14 +1826,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2108116423}
         m_TargetAssemblyTypeName: SceneManeger, Assembly-CSharp
-        m_MethodName: NextStage
-        m_Mode: 3
+        m_MethodName: GoToScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: DaSan
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2055181961
@@ -1915,17 +1903,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b74a8ec89ce54470e8c8ebc37f070c7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _buildings:
-  - {fileID: 534933836}
-  - {fileID: 158476238}
-  - {fileID: 626439920}
-  - {fileID: 361432057}
-  - {fileID: 2055181958}
-  - {fileID: 129399331}
-  - {fileID: 313415218}
-  - {fileID: 8925215}
-  - {fileID: 1257188428}
-  - {fileID: 1102162203}
 --- !u!4 &2108116424
 Transform:
   m_ObjectHideFlags: 0

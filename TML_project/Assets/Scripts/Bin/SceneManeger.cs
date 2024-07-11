@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 
 public class SceneManeger : MonoBehaviour
@@ -11,16 +10,4 @@ public class SceneManeger : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
-
-
-    [SerializeField]
-    private GameObject[] _buildings;
-
-   
-    public void NextStage(int number)
-    {
-       _buildings[number].SetActive(true);
-       
-    }
-    
 }

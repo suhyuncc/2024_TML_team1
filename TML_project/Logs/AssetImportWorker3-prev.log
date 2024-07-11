@@ -4,7 +4,7 @@ OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'ko' Physical Memory: 16221 
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 2022.3.9f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,7 +15,7 @@ C:/Users/Administrator/Documents/GitHub/2024_TML_team1/TML_project
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-52796
+51540
 Successfully changed project path to: C:/Users/Administrator/Documents/GitHub/2024_TML_team1/TML_project
 C:/Users/Administrator/Documents/GitHub/2024_TML_team1/TML_project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,15 +49,15 @@ C:/Users/Administrator/Documents/GitHub/2024_TML_team1/TML_project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5744] Host "[IP] 211.54.97.66 [Port] 0 [Flags] 2 [Guid] 3469087570 [EditorId] 3469087570 [Version] 1048832 [Id] WindowsEditor(7,ONE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16744] Host "[IP] 222.99.139.57 [Port] 0 [Flags] 2 [Guid] 1527584926 [EditorId] 1527584926 [Version] 1048832 [Id] WindowsEditor(7,ONE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5744] Host "[IP] 211.54.97.66 [Port] 0 [Flags] 2 [Guid] 3469087570 [EditorId] 3469087570 [Version] 1048832 [Id] WindowsEditor(7,ONE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16744] Host "[IP] 222.99.139.57 [Port] 0 [Flags] 2 [Guid] 1527584926 [EditorId] 1527584926 [Version] 1048832 [Id] WindowsEditor(7,ONE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 11.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Administrator/Documents/GitHub/2024_TML_team1/TML_project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
@@ -65,48 +65,51 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
     Vendor:   NVIDIA
     VRAM:     12110 MB
-    Driver:   31.0.15.5152
+    Driver:   32.0.15.5612
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity 2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016530 seconds.
-- Loaded All Assemblies, in  0.448 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.028343 seconds.
+- Loaded All Assemblies, in  0.515 seconds
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 334 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.292 seconds
-Domain Reload Profiling: 735ms
-	BeginReloadAssembly (163ms)
+- Finished resetting the current domain, in  0.728 seconds
+Domain Reload Profiling: 1237ms
+	BeginReloadAssembly (170ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (86ms)
-	LoadAllAssembliesAndSetupDomain (145ms)
-		LoadAssemblies (157ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (163ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (142ms)
-			TypeCache.Refresh (141ms)
-				TypeCache.ScanAssembly (127ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (162ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (292ms)
+	FinalizeReload (728ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (229ms)
+		SetupLoadedEditorAssemblies (660ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (476ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (144ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (115ms)
 			ProcessInitializeOnLoadMethodAttributes (61ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -115,55 +118,56 @@ Domain Reload Profiling: 735ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.812 seconds
-Refreshing native plugins compatible for Editor in 6.50 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.898 seconds
+Refreshing native plugins compatible for Editor in 6.68 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.662 seconds
-Domain Reload Profiling: 1466ms
-	BeginReloadAssembly (189ms)
+- Finished resetting the current domain, in  0.743 seconds
+Domain Reload Profiling: 1631ms
+	BeginReloadAssembly (209ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (508ms)
-		LoadAssemblies (438ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (559ms)
+		LoadAssemblies (468ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (193ms)
-			TypeCache.Refresh (171ms)
-				TypeCache.ScanAssembly (156ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (176ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (663ms)
+	FinalizeReload (744ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (489ms)
+		SetupLoadedEditorAssemblies (552ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (38ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (338ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (19ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (361ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (20ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3291 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (56.3 KB). Loaded Objects now: 3758.
-Memory consumption went from 126.0 MB to 125.9 MB.
-Total: 1.989300 ms (FindLiveObjects: 0.153300 ms CreateObjectMapping: 0.066600 ms MarkObjects: 1.695800 ms  DeleteObjects: 0.072600 ms)
+Unloading 3301 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (56.4 KB). Loaded Objects now: 3772.
+Memory consumption went from 136.1 MB to 136.1 MB.
+Total: 2.225400 ms (FindLiveObjects: 0.166800 ms CreateObjectMapping: 0.073000 ms MarkObjects: 1.886900 ms  DeleteObjects: 0.098000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,116 +184,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 17481.452263 seconds.
-  path: Assets/Assets/Images/ㄱ。기본형/치토기본형 정면 모션/치토기본형 정면_00002.png
-  artifactKey: Guid(7f815e1d52856664a8e10b441448b70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/ㄱ。기본형/치토기본형 정면 모션/치토기본형 정면_00002.png using Guid(7f815e1d52856664a8e10b441448b70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd34d5f6a439f9be15ef5e17a8535b1') in 0.110882 seconds
+  Time since last request: 107.101529 seconds.
+  path: Assets/Prefabs/Towers/Chito_01.prefab
+  artifactKey: Guid(c2f8cfcda10b73841adc43ea0f8a018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Towers/Chito_01.prefab using Guid(c2f8cfcda10b73841adc43ea0f8a018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cd786bb6e592c01db8a7a7195d62e5') in 0.544145 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 560
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Images/ㄱ。기본형/치토기본형 정면 모션/치토기본형 정면_00016.png
-  artifactKey: Guid(8fd3cd2e5d285734cbd8b7b46f8726f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/ㄱ。기본형/치토기본형 정면 모션/치토기본형 정면_00016.png using Guid(8fd3cd2e5d285734cbd8b7b46f8726f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2247453e19419e06f3696b3c886c2f4') in 0.023278 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/Towers/Chito_03.prefab
+  artifactKey: Guid(b74f9a9be80b2c24888bcb9ad8c26c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Towers/Chito_03.prefab using Guid(b74f9a9be80b2c24888bcb9ad8c26c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f16ab4bf44b7b177323a4979d53599') in 0.020791 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/Images/ㄱ。기본형/치토기본형 정면 모션/치토기본형 정면_00018.png
-  artifactKey: Guid(f7ce02807c225354399151961ed2f95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/ㄱ。기본형/치토기본형 정면 모션/치토기본형 정면_00018.png using Guid(f7ce02807c225354399151961ed2f95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618c0d42f17313d64067f71b726da553') in 0.024508 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assets/Images/ㄱ。기본형/치토기본형 정면 모션/치토기본형 정면_00013.png
-  artifactKey: Guid(0efc2c243280d4f4eafc4ab01058a3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/ㄱ。기본형/치토기본형 정면 모션/치토기본형 정면_00013.png using Guid(0efc2c243280d4f4eafc4ab01058a3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e982e7eb9adb7a2f5bf48618c8a5717') in 0.024160 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 232.246322 seconds.
-  path: Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00001.png
-  artifactKey: Guid(305138e306cb45148b456c4b9056f608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00001.png using Guid(305138e306cb45148b456c4b9056f608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5db21b07032f792ba91b3799ff4dfa8') in 0.048263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000677 seconds.
-  path: Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00015.png
-  artifactKey: Guid(c0c38b994d7a8134cba355ea177d8c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00015.png using Guid(c0c38b994d7a8134cba355ea177d8c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e2ac643e343bde3391606f6762f355') in 0.020005 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 37
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00011.png
-  artifactKey: Guid(f31f77d65d455f04a94af8be4e1e39d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00011.png using Guid(f31f77d65d455f04a94af8be4e1e39d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084d722dd433d37bfed7c60e520cdeb1') in 0.020419 seconds
+  path: Assets/Prefabs/Towers/TowerBuff.prefab
+  artifactKey: Guid(a65785a3f1622b54482330d0773adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Towers/TowerBuff.prefab using Guid(a65785a3f1622b54482330d0773adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f9cc3e17c6cf719abedbb5c9a11b11') in 0.014736 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00010.png
-  artifactKey: Guid(2334b41fa77628d4f972745cbbf2a936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00010.png using Guid(2334b41fa77628d4f972745cbbf2a936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602d9a4c898a8c0151f9c74b0b3bae85') in 0.019750 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00002.png
-  artifactKey: Guid(f29731d4cc426924f83531337db4481f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00002.png using Guid(f29731d4cc426924f83531337db4481f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4459654205a78ffa65bb58cbd3b25204') in 0.019399 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00017.png
-  artifactKey: Guid(6e52563fec1902b4991c745bce5b2219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00017.png using Guid(6e52563fec1902b4991c745bce5b2219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987fc3381f1d95d9a05f462573c79e62') in 0.019009 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00019.png
-  artifactKey: Guid(1cbc4453c9328e64fa42d998ab6dc120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00019.png using Guid(1cbc4453c9328e64fa42d998ab6dc120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29a01fc71da0d60ce7b62f3439f2e36') in 0.021098 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00012.png
-  artifactKey: Guid(0b6d617e9b6322d479d5039d62da7bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00012.png using Guid(0b6d617e9b6322d479d5039d62da7bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c4ccf6febf039c4334e39bbae1a068') in 0.020589 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00004.png
-  artifactKey: Guid(0e26ed988f42d8a4ea45146309c63481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00004.png using Guid(0e26ed988f42d8a4ea45146309c63481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452bbfc82902f71cf88b3761126f074a') in 0.021733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00008.png
-  artifactKey: Guid(c59190f24edb02e409382c06e7f7c894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/ㄱ。기본형/치토기본형 측면 모션(우)/치토기본형 측면(우)_00008.png using Guid(c59190f24edb02e409382c06e7f7c894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b250afd47a3f2c5ccb977574ba3385') in 0.018687 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 30
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ������ ���� �Ǵ� ���� ���α׷� ��û ������ I/O �۾��� ��ҵǾ����ϴ�.
 AssetImportWorker is now disconnected from the server

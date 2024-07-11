@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35586822ad1f52e4fbf4e0bb960eeb23, type: 3}
+  m_Name: Chito_06
+  m_EditorClassIdentifier: 
+  towerPrefab: {fileID: 6366205928614838961, guid: dc961447b35e2f44eae17374371d61de, type: 3}
+  followTowerPrefab: {fileID: 3757724338595478137, guid: 8c258b999994f424d9ef0c8905046c07, type: 3}
+  weapon:
+  - sprite: {fileID: 21300000, guid: 588786406eb577a42bbf6d7ce8069cea, type: 3}
+    animatorController: {fileID: 9100000, guid: ccf9ea549954e6a43b4777ef415ca1ed, type: 2}
+    damage: 1
+    slow: 0
+    buff: 0
+    debuff: 0
+    rate: 0.8
+    range: 2
+    cost: 50
+    sell: 25
+  - sprite: {fileID: 21300000, guid: cca7caf8f6b87854da8c483aa0cf44df, type: 3}
+    animatorController: {fileID: 0}
+    damage: 1.5
+    slow: 0
+    buff: 0
+    debuff: 0
+    rate: 0.7
+    range: 2.5
+    cost: 100
+    sell: 75
+  - sprite: {fileID: 21300000, guid: 26c3a07b5271aad489f8f1e6199408eb, type: 3}
+    animatorController: {fileID: 0}
+    damage: 2
+    slow: 0
+    buff: 0
+    debuff: 0
+    rate: 0.6
+    range: 2.5
+    cost: 150
+    sell: 150
+  towerType: 6
