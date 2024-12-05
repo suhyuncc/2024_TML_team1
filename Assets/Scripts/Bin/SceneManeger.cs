@@ -26,6 +26,11 @@ public class SceneManeger : MonoBehaviour
 
     private void Start()
     {
+        if(Time.timeScale == 0.0f)
+        {
+            Time.timeScale = 1.0f;
+        }
+
         if (_playerInfo.current_stage != _playerInfo.previous_stage)
         {
             _playerInfo.previous_stage = _playerInfo.current_stage;
@@ -45,15 +50,34 @@ public class SceneManeger : MonoBehaviour
 
     public void ShowStage(int number)
     {
-        for(int i = 0; i < number; i++)
+        switch (number)
         {
-            _buildings[i].SetActive(true);
+            case 11:
+                for (int i = 0; i < number - 1; i++)
+                {
+                    _buildings[i].SetActive(true);
+                }
+
+                for (int i = 0; i < number - 1; i++)
+                {
+                    _buildings[i].GetComponent<Button>().interactable = false;
+                }
+                break;
+            default:
+                for (int i = 0; i < number; i++)
+                {
+                    _buildings[i].SetActive(true);
+                }
+
+                for (int i = 0; i < number - 1; i++)
+                {
+                    _buildings[i].GetComponent<Button>().interactable = false;
+                }
+                break;
+
         }
 
-        for (int i = 0; i < number - 1; i++)
-        {
-            _buildings[i].GetComponent<Button>().interactable = false;
-        }
+        
     }
     
     public void GameExit()

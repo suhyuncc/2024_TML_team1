@@ -8,8 +8,10 @@ using UnityEngine.UI;
 //gh
 public class Dialogue_Manage : MonoBehaviour
 {
-    public static Dialogue_Manage instance; 
+    public static Dialogue_Manage instance;
 
+    [SerializeField]
+    private PlayerInfo _playerInfo;
     public string eventName; // eventName 수령 받을 곳
     [SerializeField]
     private TMP_Text contextText; //대화
@@ -21,6 +23,8 @@ public class Dialogue_Manage : MonoBehaviour
 
     private DialogueData[] dialogueData; //대화 데이터
 
+    [SerializeField]
+    private GameObject _credit;
     [SerializeField]
     private GameObject dialoguePanel; //대화panel
     [SerializeField]
@@ -148,6 +152,11 @@ public class Dialogue_Manage : MonoBehaviour
                         else 
                         {
                             dialoguePanel.SetActive(false);
+
+                            if (_playerInfo.current_stage == 11)
+                            {
+                                _credit.SetActive(true);
+                            }
                         }
                         
                     }
@@ -168,7 +177,7 @@ public class Dialogue_Manage : MonoBehaviour
         for(int i = 0; i < toType.Length; i++)
         {
             contextText.text+= toType[i];
-            yield return new WaitForSecondsRealtime(0.15f);
+            yield return new WaitForSecondsRealtime(0.1f);
         }
         currentTypeEnd = true;
         endTriangle.SetActive(true);

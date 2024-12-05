@@ -8,6 +8,8 @@ public class Projectile : MonoBehaviour
     private bool isLookAt;
     [SerializeField]
     private int effect_num;
+    [SerializeField]
+    private AudioClip _hitSFX;
 
     private Movement2D movement2D;
     private Transform target;
@@ -46,6 +48,7 @@ public class Projectile : MonoBehaviour
 
         collision.GetComponent<EnemyHP>().TakeDamage(damage);   // 적 체력을 damage만큼 감소
         collision.GetComponent<EnemyHP>().EffectOn(effect_num); // 이펙트 생성
+        SFX_Manager.instance.Play_oneshot(_hitSFX);           // 피격시 효과음 재생
         Destroy(gameObject);
     }
 

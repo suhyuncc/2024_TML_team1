@@ -180,6 +180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLookAt: 0
   effect_num: 1
+  _hitSFX: {fileID: 8300000, guid: 1554cbbf9de4d2c4e9d2bc86ef1393d6, type: 3}
 --- !u!95 &4923315832458986078
 Animator:
   serializedVersion: 5

@@ -5,8 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class LosePanel : MonoBehaviour
 {
+    [SerializeField]
+    private AudioClip _SFX;
+
     private void OnEnable()
     {
+        SFX_Manager.instance.Play_oneshot(_SFX);
         Time.timeScale = 0.0f;
     }
 

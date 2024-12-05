@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a4d10fb28a1f1242b0759750b6bfeae, type: 3}
   m_Name: Player Info
   m_EditorClassIdentifier: 
-  current_stage: 11
-  previous_stage: 10
+  current_stage: 10
+  previous_stage: 0

@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static Unity.PlasticSCM.Editor.WebApi.CredentialsResponse;
 using UnityEngine.UIElements;
 
 public class EnemyHP : MonoBehaviour
@@ -16,6 +15,8 @@ public class EnemyHP : MonoBehaviour
     private Enemy enemy;
     private SpriteRenderer spriteRenderer;
     public float DamageMultiplier;
+    [SerializeField]
+    private AudioClip _deathSFX;
 
 
     public float MaxHP => maxHP;
@@ -43,6 +44,8 @@ public class EnemyHP : MonoBehaviour
         if(currentHP <= 0)
         {
             isDie = true;
+            //사망시 효과음 재생
+            SFX_Manager.instance.Play_oneshot(_deathSFX);
             enemy.OnDie(EnemyDestroyType.kill);
         }
     }

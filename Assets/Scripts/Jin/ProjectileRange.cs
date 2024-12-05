@@ -6,6 +6,8 @@ public class ProjectileRange : MonoBehaviour
 {
     [SerializeField]
     private int effect_num;
+    [SerializeField]
+    private AudioClip _hitSFX;
     private Movement2D movement2D;
     private Transform target;
     private float damage;
@@ -41,6 +43,7 @@ public class ProjectileRange : MonoBehaviour
         if (collision.transform != target) return;              // 현재 target인 적이 아닐 때
         Explode();
         collision.GetComponent<EnemyHP>().EffectOn(effect_num); // 이펙트 생성
+        SFX_Manager.instance.Play_oneshot(_hitSFX);           // 피격시 효과음 재생
         Destroy(gameObject);
     }
     

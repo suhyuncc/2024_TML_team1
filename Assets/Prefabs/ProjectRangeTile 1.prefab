@@ -179,6 +179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   effect_num: 5
+  _hitSFX: {fileID: 8300000, guid: 1554cbbf9de4d2c4e9d2bc86ef1393d6, type: 3}
 --- !u!95 &6871392100033518785
 Animator:
   serializedVersion: 5
