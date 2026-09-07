@@ -5,8 +5,8 @@ using UnityEngine;
 [CreateAssetMenu]
 public class TowerTemplate : ScriptableObject
 {
-    public GameObject towerPrefab;
-    public GameObject followTowerPrefab; //임시 타워 프리팹
+    public GameObject towerPrefab;          //생성될 타워 프리펩
+    public GameObject followTowerPrefab;    //생성전 마우스를 따라다니는 타워 프리팹
     public Weapon[] weapon;
     public int towerType;
 
